@@ -1,0 +1,14 @@
+{
+  "name": "ethersjs_basic",
+  "version": "1.0.0",
+  "description": "ethers.js学习",
+  "main": "src/index.js",
+  "scripts": {
+  },
+  "keywords": ["ethers.js"],
+  "author": "ethersjs",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^5.4.5"
+  }
+}
