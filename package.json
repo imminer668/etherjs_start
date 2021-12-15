@@ -4,6 +4,9 @@
   "description": "ethers.js学习",
   "main": "src/index.js",
   "scripts": {
+	  "basic:provider": "node src/01-basic-provider.js",
+	  "basic:wallet": "node src/02-wallet-create.js",
+	  "all": "npm run basic:provider && npm run basic:wallet"
   },
   "keywords": ["ethers.js"],
   "author": "ethersjs",
