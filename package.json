@@ -8,9 +8,10 @@
 	  "basic:wallet": "node src/02-wallet-create.js",
 	  "basic:connect": "node src/03-wallet-connect.js",
 	  "basic:sign": "node src/04-sign-verify.js",
+	  "read:basic": "node src/05-contract-call.js",
 
 
-	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign"
+	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign && npm run read:basic"
   },
   "keywords": ["ethers.js"],
   "author": "ethersjs",
