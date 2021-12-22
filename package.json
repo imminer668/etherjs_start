@@ -9,9 +9,9 @@
 	  "basic:connect": "node src/03-wallet-connect.js",
 	  "basic:sign": "node src/04-sign-verify.js",
 	  "read:basic": "node src/05-contract-call.js",
+	  "read:filter": "node src/06-event-filter.js",
 
-
-	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign && npm run read:basic"
+	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign && npm run read:basic && npm run read:filter "
   },
   "keywords": ["ethers.js"],
   "author": "ethersjs",
