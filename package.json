@@ -13,9 +13,10 @@
 	  "read:batch": "node src/07-batch-call.js",
 	  "write:send": "node src/08-send-transaction.js",
 	  "write:estimate": "node src/09-gas-estimate.js",
+	  "write:wait": "node src/10-wait-confirm.js",
 
 
-	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign && npm run read:basic && npm run read:filter && npm run read:batch && npm run write:send && npm run write:estimate"
+	  "all": "npm run basic:provider && npm run basic:wallet && npm run basic:connect && npm run basic:sign && npm run read:basic && npm run read:filter && npm run read:batch && npm run write:send && npm run write:estimate && npm run write:wait"
   },
   "keywords": ["ethers.js"],
   "author": "ethersjs",
